@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>VOID</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
@@ -13,76 +12,52 @@
       text-align: center;
     }
 
-    .hero {
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-
     h1 {
-      font-size: 80px;
-      letter-spacing: 10px;
+      font-size: 60px;
+      margin: 30px 0;
+      letter-spacing: 5px;
     }
 
-    p {
-      color: gray;
+    .product {
+      margin: 50px 0;
     }
 
-    .btn {
+    .product img {
+      width: 80%;
+      max-width: 800px;
+      border-radius: 10px;
+    }
+
+    .product h2 {
       margin-top: 20px;
-      padding: 12px 24px;
-      background: white;
-      color: black;
-      border: none;
-      cursor: pointer;
-      font-weight: bold;
-    }
-
-    .section {
-      padding: 60px 20px;
-    }
-
-    .products {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-
-    .card {
-      width: 250px;
-      height: 300px;
-      background: #111;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      font-size: 24px;
     }
   </style>
 </head>
+
 <body>
 
-<div class="hero">
   <h1>VOID</h1>
-  <p>INSIDE OUT</p>
-  <button class="btn">SHOP DROP 01</button>
-</div>
 
-<div class="section">
-  <h2>DROP 01</h2>
-  <div class="products">
-    <div class="card">PUFFER</div>
-    <div class="card">HOODIE</div>
-    <div class="card">TEE</div>
-    <div class="card">PANTS</div>
+  <div class="product">
+    <img src="puffer.jpg">
+    <h2>VOID PUFFER</h2>
   </div>
-</div>
 
-<div class="section">
-  
-  
-</div>
+  <div class="product">
+    <img src="hoodie.jpg">
+    <h2>VOID ZIP HOODIE</h2>
+  </div>
+
+  <div class="product">
+    <img src="pants.jpg">
+    <h2>VOID PANTS</h2>
+  </div>
+
+  <div class="product">
+    <img src="tee.jpg">
+    <h2>VOID TEE</h2>
+  </div>
 
 </body>
 </html>
